@@ -261,7 +261,7 @@ Nav in mobile view */
 
 
 
-navbarbtn {
+#navbarbtn {
     position: fixed;
     top: 1.5rem;
     left: 2rem;
@@ -279,7 +279,7 @@ navbarbtn {
     display: none;
 }
 
-navbarbtn:hover {
+#navbarbtn:hover {
     color: var(--green);
     box-shadow: var(--box-shadow-inset);
 }
@@ -652,7 +652,7 @@ navbarbtn:hover {
 
     }
 
-    navbarbtn {
+    #navbarbtn {
         display: initial;
     }
 
