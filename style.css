@@ -660,10 +660,7 @@ Nav in mobile view */
         padding: 2rem;
         padding-left: 2rem;
     }
-    * {
-        -webkit-tap-highlight-color: transparent;
-    }
-
+   
 }
 
 
@@ -698,11 +695,7 @@ Nav in mobile view */
     .portfolio .box-container .box img {
         object-fit: fill;
     }
-    
-    * {
-        -webkit-tap-highlight-color: transparent;
-    }
- 
+
 
     /* navbarbtn{
         display:initial;
