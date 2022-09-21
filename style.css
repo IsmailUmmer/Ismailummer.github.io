@@ -674,9 +674,6 @@ Nav in mobile view */
         width: 100%;
         border-right: 0;
     }
-    section {
-        min-height: 60vh;
-    }
     
     .portfolio .box-container {
         display: grid;
