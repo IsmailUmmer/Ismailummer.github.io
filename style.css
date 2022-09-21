@@ -670,6 +670,11 @@ Nav in mobile view */
         width: 100%;
         border-right: 0;
     }
+    section {
+        min-height: 100vh;
+        padding: 2rem;
+        padding-left: 2rem;
+    }
 
     /* navbarbtn{
         display:initial;
