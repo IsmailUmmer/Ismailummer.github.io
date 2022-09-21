@@ -655,6 +655,10 @@ Nav in mobile view */
     #navbarbtn {
         display: initial;
     }
+    section {
+        padding: 2rem;
+        padding-left: 2rem;
+    }
 
 
 }
@@ -671,9 +675,22 @@ Nav in mobile view */
         border-right: 0;
     }
     section {
-        min-height: 100vh;
-        padding: 2rem;
-        padding-left: 2rem;
+        min-height: 60vh;
+    }
+    
+    .portfolio .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    }
+    .portfolio .box-container .box {
+        height: 18rem;
+    }
+    .portfolio .box-container .box .content h3 {
+        font-size: 1.5rem;
+
+    }
+    .portfolio .box-container .box .content .work-link {
+        margin-top: 3rem;
     }
 
     /* navbarbtn{
