@@ -675,6 +675,9 @@ Nav in mobile view */
         padding: 2rem;
         padding-left: 2rem;
     }
+    .portfolio .box-container {
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+}
 
     /* navbarbtn{
         display:initial;
