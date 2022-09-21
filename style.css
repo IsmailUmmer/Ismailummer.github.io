@@ -697,6 +697,10 @@ Nav in mobile view */
     .portfolio .box-container .box img {
         object-fit: fill;
     }
+    
+    * {
+        -webkit-tap-highlight-color: transparent;
+    }
  
 
     /* navbarbtn{
