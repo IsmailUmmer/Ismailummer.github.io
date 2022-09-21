@@ -659,7 +659,9 @@ Nav in mobile view */
         padding: 2rem;
         padding-left: 2rem;
     }
-
+    * {
+        -webkit-tap-highlight-color: transparent;
+    }
 
 }
 
