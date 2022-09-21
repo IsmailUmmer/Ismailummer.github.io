@@ -692,6 +692,10 @@ Nav in mobile view */
     .portfolio .box-container .box .content .work-link {
         margin-top: 3rem;
     }
+    .portfolio .box-container .box img {
+        object-fit: fill;
+    }
+
 
     /* navbarbtn{
         display:initial;
