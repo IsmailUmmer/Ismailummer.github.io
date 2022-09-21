@@ -682,7 +682,7 @@ Nav in mobile view */
     
     .portfolio .box-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
     }
     .portfolio .box-container .box {
         height: 18rem;
@@ -697,7 +697,7 @@ Nav in mobile view */
     .portfolio .box-container .box img {
         object-fit: fill;
     }
-
+ 
 
     /* navbarbtn{
         display:initial;
