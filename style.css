@@ -108,6 +108,11 @@ section {
 
 
 /* nav bar starts */
+.nav {
+    list-style-type: none;
+    padding-bottom: 14rem;
+
+}
 
 .nav__cont {
     position: fixed;
@@ -127,18 +132,12 @@ section {
     width: 28rem;
 }
 
-.nav {
-    list-style-type: none;
-    padding-bottom: 14rem;
-
-}
-
 .nav__subtitile {
     text-align: left;
     padding-left: 8em;
     margin-top: 1rem;
     margin-bottom: 2rem;
-    color:  var(--black);
+    color: var(--black);
     visibility: hidden;
 }
 
@@ -153,7 +152,7 @@ section {
     box-shadow: var(--nav-box-shadow);
 }
 
-.navbtn a{
+.navbtn a {
     margin-left: -6rem;
     display: inline-block;
     padding: 1.9rem 16.5rem 2rem 9.5rem;
@@ -163,14 +162,12 @@ section {
     color: var(--black);
     box-shadow: var(--nav-box-shadow);
 }
-.navbtn i{
+
+.navbtn i {
     margin-left: -5rem;
     letter-spacing: 22px;
     font-size: 1.5rem;
 }
-
-
-
 
 .navbtn:hover {
     box-shadow: var(--nav-box-shadow-inset);
@@ -183,84 +180,10 @@ section {
     background-color: var(--bg-color);
 }
 
-/* .nav__items {
-    padding-bottom: 4rem;
-
-    font-family: '
- roboto'
-;
-} */
-
 .navtext {
     color: var(--black);
 }
- 
-/* 
-Nav in mobile view */
-
-
-
-
-/* .nav__items a {
-    position: relative;
-    display: block;
-    top: -35px;
-    padding-left: 25px;
-    padding-right: 15px;
-    transition: all 0.3s ease;
-    margin-left: 25px;
-    margin-right: 10px;
-    text-decoration: none;
-
-    font-family: '
- roboto'
-;
-    font-weight: 100;
-    font-size: 1.35em;
-}
-
-.nav__items a:after {
-    content: '
-'
-;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 2px;
-    background: radial-gradient(circle at 94.02% 88.03%, --nav-bg-color, transparent 100%);
-    opacity: 0;
-    transition: all 0.5s ease;
-    z-index: -10;
-}
-
-.nav__items:hover a:after {
-    opacity: 6;
-}
-
-.nav__items svg {
-    width: 26px;
-    height: 26px;
-    position: relative;
-    left: -25px;
-    cursor: pointer;
-}
-
-@media screen and (min-width: 600px) {
-    .nav__items svg {
-        color: --nav-bg-color;
-        width: 32px;
-        height: 32px;
-        left: -15px;
-    }
-}
- */
-
-/* nav bar ends */
-
-
-
+ /* --open & close button of navigation bar- */
 
 #navbarbtn {
     position: fixed;
@@ -280,10 +203,9 @@ Nav in mobile view */
     display: none;
 }
 
-#navbarbtn:hover {
-    color: var(--green);
-    box-shadow: var(--box-shadow-inset);
-}
+
+
+/* ------------nav bar ends---------------- */
 
 #theme-toggler {
     position: fixed;
@@ -321,7 +243,7 @@ Nav in mobile view */
     color: var(--black);
     line-height: 1.1;
     text-transform: uppercase;
-} ini
+}
 
 .home .content p {
     font-size: 2rem;
@@ -631,17 +553,6 @@ Nav in mobile view */
 }
 
 /* media queries */
-@media (min-width: 420px) {
-    #theme-toggler:hover {
-      color: var(--green);
-      box-shadow: var(--box-shadow-inset);
-    }
-  }
-  
-    #theme-toggler:active {
-        color: var(--green);
-        box-shadow: var(--box-shadow-inset);
-      }
 
 @media (max-width:991px) {
 
@@ -667,11 +578,12 @@ Nav in mobile view */
     #navbarbtn {
         display: initial;
     }
+
     section {
         padding: 2rem;
         padding-left: 2rem;
     }
-   
+
 }
 
 
@@ -685,38 +597,53 @@ Nav in mobile view */
         width: 100%;
         border-right: 0;
     }
-    
-    
+
+
     .portfolio .box-container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
     }
+
     .portfolio .box-container .box {
         height: 18rem;
     }
+
     .portfolio .box-container .box .content h3 {
         font-size: 1.5rem;
 
     }
+
     .portfolio .box-container .box .content .work-link {
         margin-top: 3rem;
     }
+
     .portfolio .box-container .box img {
         object-fit: fill;
     }
+}
+
+@media only screen and (min-width: 600px) {
     #theme-toggler:hover {
+      color: var(--green);
+      box-shadow: var(--box-shadow-inset);
+    }
+    #navbarbtn:hover {
+        color: var(--green);
+        box-shadow: var(--box-shadow-inset);
+    }
+  }
+  
+    #theme-toggler:active {
         color: var(--green);
         box-shadow: var(--box-shadow-inset);
       }
+
+    #navbarbtn:active {
+        color: var(--green);
+        box-shadow: var(--box-shadow-inset);
+    }
     
-      #theme-toggler:active {
-          color: var(--green);
-          box-shadow: var(--box-shadow-inset);
-        }
-
-
-    /* navbarbtn{
+    
+/* navbarbtn{
         display:initial;
     } */
-
-}
