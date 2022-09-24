@@ -1,18 +1,18 @@
-let menu = document.querySelector('#navbarbtn');
+let nav = document.querySelector('#navbarbtn');
 let navcont = document.querySelector('.nav__cont');
 
-menu.onclick = () => {
-    menu.classList.toggle('fa-times');
+nav.onclick = () =>{
+    nav.classList.toggle('fa-times');
     navcont.classList.toggle('active');
 }
 
 let themeToggler = document.querySelector('#theme-toggler');
 
-themeToggler.onclick = () => {
+themeToggler.onclick = () =>{
     themeToggler.classList.toggle('fa-sun');
-    if (themeToggler.classList.contains('fa-sun')) {
+    if(themeToggler.classList.contains('fa-sun')){
         document.body.classList.add('active');
-    } else {
+    }else{
         document.body.classList.remove('active');
     }
 }
