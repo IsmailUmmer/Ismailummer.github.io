@@ -398,3 +398,8 @@
     //     // themeToggler.classList.toggle("fa-moon");
     // }
     // div[0].classList.remove( "fa-moon")
+   
+   WHITE
+   
+    rgb(245 245 247);
+    rgb(240 240 240);

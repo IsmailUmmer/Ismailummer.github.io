@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 :root {
-    --green: #4285f4;
+    --blue: #4285f4;
     --black: rgba(9, 13, 25, 0.752);
     --nav-bg-color: rgb(94, 0, 224);
     --light-color: rgb(155, 138, 138);
@@ -78,7 +78,7 @@ section {
 
 .btn:hover {
     box-shadow: var(--box-shadow-inset);
-    color: var(--green);
+    color: var(--blue);
 }
 
 .heading {
@@ -90,7 +90,7 @@ section {
 }
 
 .heading span {
-    color: var(--green);
+    color: var(--blue);
     text-transform: uppercase;
 }
 
@@ -170,7 +170,7 @@ section {
 
 .navbtn:hover {
     box-shadow: var(--nav-box-shadow-inset);
-    color: var(--green);
+    color: var(--blue);
     visibility: visible;
 }
 
@@ -225,7 +225,7 @@ section {
 }
 
 /* #theme-toggler:hover {
-    color: var(--green);
+    color: var(--blue);
     box-shadow: var(--box-shadow-inset);
 } */
 
@@ -246,9 +246,9 @@ section {
 
 .home .content p {
     font-size: 2rem;
-    color: var(--green);
+    color: var(--blue);
     padding-bottom: .5rem;
-
+    text-transform: none;
 }
 
 .home .share {
@@ -272,7 +272,7 @@ section {
 
 .home .share a:hover {
     box-shadow: var(--box-shadow-inset);
-    color: var(--green);
+    color: var(--blue);
 }
 
 .about .row {
@@ -320,7 +320,7 @@ section {
 }
 
 .about .row .content h3 span {
-    color: var(--green);
+    color: var(--blue);
 }
 
 .about .row .content p {
@@ -358,7 +358,7 @@ section {
 .about .row .progress .bar span {
     display: block;
     height: 100%;
-    background: var(--green);
+    background: var(--blue);
     border-radius: 5rem;
 }
 
@@ -423,7 +423,7 @@ section {
     left: 0;
     height: 100%;
     width: 100%;
-    background: var(--green);
+    background: var(--blue);
     z-index: -1;
     clip-path: circle(9rem at 0% 5%);
     transition: .3s linear;
@@ -493,7 +493,7 @@ section {
 .portfolio .box-container .box .content .work-link {
     display: inline-flex;
     font-size: 4.5rem;
-    background: var(--green);
+    background: var(--blue);
     color: var(--bg-color);
     padding: .45rem;
     /* margin-bottom: 2rem; */
@@ -548,7 +548,7 @@ section {
 }
 
 .credits span {
-    color: var(--green);
+    color: var(--blue);
 }
 
 /* media queries */
@@ -623,22 +623,22 @@ section {
 
 @media only screen and (min-width: 600px) {
     #theme-toggler:hover {
-      color: var(--green);
+      color: var(--blue);
       box-shadow: var(--box-shadow-inset);
     }
     #navbarbtn:hover {
-        color: var(--green);
+        color: var(--blue);
         box-shadow: var(--box-shadow-inset);
     }
   }
   
     #theme-toggler:active {
-        color: var(--green);
+        color: var(--blue);
         box-shadow: var(--box-shadow-inset);
       }
 
     #navbarbtn:active {
-        color: var(--green);
+        color: var(--blue);
         box-shadow: var(--box-shadow-inset);
     }
     
